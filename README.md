@@ -12,3 +12,6 @@ This tool uses headerless chrome through the chromedriver. It is accelerated and
 The chromedriver version must be compatible with your Chrome version.
 <br>
 <a href="https://chromedriver.chromium.org/downloads">Chrome Driver Releases
+
+# Usage
+```python3 ruin.py yourName```
