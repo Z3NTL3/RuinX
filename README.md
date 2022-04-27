@@ -10,3 +10,4 @@ You can install it by running the following command:
 ```pip3 install selenium```
 
 The chromedriver version must be compatible with your Chrome version.
+<a href="https://chromedriver.chromium.org/downloads">Chrome Driver Releases
