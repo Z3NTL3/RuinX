@@ -172,6 +172,7 @@ def Main():
         sys.exit()
     # exitor menu
     menu = True
+    ftrs = []
     while menu:
         choose = input("\033[38;5;206m->\033[0m ")
         if choose.lower() == "exit":
@@ -179,6 +180,7 @@ def Main():
             try:
                 pool.shutdown(wait=False,cancel_futures=True)
                 for future in concurrent.futures.as_completed(futures):
+                    ftrs.append(future)
                     future.cancel()
             except RuntimeError:
                 pass
@@ -194,7 +196,11 @@ def Main():
             menu = False
         else:
             print("\033[38;5;206m[\033[31mCommands\033[0m\033[38;5;206m] \033[38;5;207m-\033[38;5;219m>\033[0m \033[31mexit\033[0m")
-    if future.done():
+    ths = []
+    for f in ftrs:
+        if f.done():
+            ths.append('yes')
+    if len(ths) == len(ftrs):
         print("\033[38;5;206mTerminated the threads\033[0m")
     return
                 
