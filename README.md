@@ -15,3 +15,6 @@ The chromedriver version must be compatible with your Chrome version.
 
 # Usage
 ```python3 ruin.py yourName```
+
+# Pictures
+<img src="ss.png" width="300">
