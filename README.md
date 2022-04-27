@@ -1,6 +1,8 @@
 # RuinX
 An efficient and concurrent LessonUp and Kahoot Game Room Spammer.
-<a href="https://www.youtube.com/shorts/QIf6J9Yo7HI">Video Proof</a>
+<a href="https://www.youtube.com/shorts/QIf6J9Yo7HI">Video Proof</a>.
+
+**Not using trash kahoot libraries, using chromedriver**
 
 # Info
 This tool uses headerless chrome through the chromedriver. It is accelerated and reinforced with parallel threads.
