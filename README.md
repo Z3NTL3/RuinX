@@ -1,6 +1,6 @@
 # RuinX
 An efficient and concurrentLessonUp and Kahoot Game Room Spammer.
-<a href="https://www.youtube.com/shorts/QIf6J9Yo7HI">Video Proof
+<a href="https://www.youtube.com/shorts/QIf6J9Yo7HI">Video Proof</a>
 
 # Info
 This tool uses headerless chrome through the chromedriver. It is accelerated and reinforced with parallel threads.
@@ -11,7 +11,7 @@ This tool uses headerless chrome through the chromedriver. It is accelerated and
 
 The chromedriver version must be compatible with your Chrome version.
 <br>
-<a href="https://chromedriver.chromium.org/downloads">Chrome Driver Releases
+<a href="https://chromedriver.chromium.org/downloads">Chrome Driver Releases</a>
 
 # Usage
 ```python3 ruin.py yourName```
