@@ -18,3 +18,6 @@ The chromedriver version must be compatible with your Chrome version.
 
 # Pictures
 <img src="ss.png" width="500">
+
+# README
+Do not sell this tool. This tool was programmed by Z3NTL3 for educational purposes only.
