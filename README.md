@@ -7,6 +7,6 @@ This tool uses headerless chrome through the chromedriver. It is accelerated and
 Requirements are Selenium dependency for Python.
 
 You can install it by running the following command:
-pip3 install selenium
+```pip3 install selenium```
 
 The chromedriver version must be compatible with your Chrome version.
