@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import psutil
 import random
+from multiprocessing import cpu_count
 
 ''' 
 Programmed by Z3NTL3
@@ -18,6 +19,8 @@ Programmed by Z3NTL3
 block = ['http','://','www','https']
 timeout = 15
 usedNames = ["Z3NTL3"]
+workers = (cpu_count() - 2) * 2 
+
 try:
     sys.argv[1]
 except:
@@ -161,11 +164,11 @@ def Main():
             menuexit = True
             break
     if valid and kahoot:
-        pool = concurrent.futures.ProcessPoolExecutor(max_workers=61)
+        pool = concurrent.futures.ProcessPoolExecutor(max_workers=int(workers))
         futures = [pool.submit(WebsiteBot,code=gamecode,name=NameGenerator(sys.argv[1])) for x in range(threads)]
     
     elif valid and lessonup:
-        pool = concurrent.futures.ProcessPoolExecutor(max_workers=61)
+        pool = concurrent.futures.ProcessPoolExecutor(max_workers=int(workers))
         futures = [pool.submit(LessonUp,code=gamecode,name=NameGenerator(sys.argv[1])) for x in range(threads)]
     
     elif menuexit:
@@ -207,4 +210,3 @@ def Main():
 if __name__ == '__main__':
     Logo()
     Main()
-    
