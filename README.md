@@ -1,4 +1,7 @@
 # RuinX
+#### NOTE:
+**Proxied Version under development in ``Node.js``**<br><br>
+
 An efficient and concurrent LessonUp and Kahoot Game Room Spammer.
 <a href="https://www.youtube.com/shorts/QIf6J9Yo7HI">Video Proof</a>.
 
