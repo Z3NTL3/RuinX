@@ -1,6 +1,7 @@
 # RuinX
-#### NOTE:
-**Proxied Version under development in ``Node.js``**<br><br>
+
+#### Update
+I have written this a very long time ago, and a bit at the stage of my amateur programming knowledge level. Soon I will have an hand on fixing dirty things in the source. (currently busy w/school)
 
 An efficient and concurrent LessonUp and Kahoot Game Room Spammer.
 <a href="https://www.youtube.com/shorts/QIf6J9Yo7HI">Video Proof</a>.
